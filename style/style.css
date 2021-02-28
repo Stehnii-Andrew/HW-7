@@ -21,8 +21,8 @@ body {
 .logo1-1 {
     position: absolute;
     left: 411px;
-    width: 14px;
-    height: 14px;
+    width: 67px;
+    height: 67px;
 }
 
 .square1-1 {
@@ -30,7 +30,7 @@ body {
     width: 5.7px;
     height: 5.68px;
     left: 0px;
-    top: 0px;
+    top: 25px;
     background: #4385DC;
 }
 
@@ -39,7 +39,7 @@ body {
     width: 5.7px;
     height: 5.68px;
     left: 0px;
-    top: 14px;
+    top: 37.32px;
     background: #4385DC;
 }
 
@@ -47,8 +47,8 @@ body {
     position: absolute;
     width: 5.7px;
     height: 5.68px;
-    left: 14px;
-    top: 0px;
+    left: 13.3px;
+    top: 25px;
     background: #4385DC;
 }
 
@@ -56,28 +56,30 @@ body {
     position: absolute;
     width: 5.7px;
     height: 5.68px;
-    left: 14px;
-    top: 14px;
+    left: 13.3px;
+    top: 37.32px;
     background: #4385DC;
 }
 
 .title1-1 {
     position: absolute;
-    left: 460px;
+
+    left: 443px;
     font-family: 'Open Sans', sans-serif;
     color: #4F4F4F;
     margin: 0px;
     font-weight: 800;
-    font-size: 33px;
+    font-size: 24px;
 }
 
 .language {
     display: flex;
     align-items: center;
     position: absolute;
-    width: 85px;
-    height: 38px;
+    width: 83px;
+    height: 37px;
     left: 1227px;
+    top: 14px;
     background: #FFFFFF;
     border: 1px solid #DFDFDF;
     border-radius: 3px;
@@ -85,8 +87,8 @@ body {
 
 .language1-2 {
     position: absolute;
-    left: 3px;
-    font-size: 15px;
+    left: 18px;
+    font-size: 13px;
     font-weight: 520;
 }
 
@@ -97,9 +99,12 @@ body {
 
 .add1-1 {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 185px;
     height: 38px;
-    right: 411px;
+    left: 1326px;
     background: #4385DC;
     border: 1px solid #4E79B3;
     box-sizing: border-box;
@@ -111,13 +116,15 @@ body {
 
 .add1-2 {
     position: absolute;
-    left: 30px;
+    top: 9px;
+    left: 65px;
+    font-size: 14px;
     color: #FFF;
 }
 
 .plus1-1-1 {
     position: absolute;
-    left: 10px;
+    left: 43px;
 }
 
 .linem {
@@ -147,14 +154,14 @@ body {
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
     border-radius: 3px;
-    padding-left: 35px;
+    padding-left: 40px;
     
     font-size: 14px;
 }
 
 .search2-1-1 {
     position: absolute;
-    top: 41px;
+    top: 42px;
     left: 13px;
 }
 
@@ -179,7 +186,7 @@ body {
 
 .text2-2-1 {
     position: absolute;
-    left: 10px;
+    left: 15px;
     font-size: 14px;
 }
 
@@ -240,14 +247,14 @@ body {
     position: absolute;
     width: 106px;
     height: 4px;
-    top: 138px;
-
+    top: 127px;
     background: #4385DC;
 }
 
 .text2-5-1 {
     position: absolute;
-    top: 115px;
+    top: 104px;
+    left: -1px;
     font-size: 14px;
     font-weight: 550;
     color: #4385DC;
@@ -256,7 +263,7 @@ body {
 .text2-5-2 {
     position: absolute;
     left: 134px;
-    top: 115px;
+    top: 104px;
     font-size: 14px;
     font-weight: 550;
     color: #000;
@@ -266,7 +273,7 @@ body {
     position: absolute;
     width: 1100px;
     height: 0px;
-    top: 142px;
+    top: 131px;
     border: 1px solid #E0E0E0;
     margin: 0px;
 }
@@ -275,7 +282,7 @@ body {
     position: absolute;
     width: 1100px;
     height: 316px;
-    top: 183px;
+    top: 172px;
     background: #FFFFFF;
     box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.1);
     border-radius: 3px;
@@ -285,7 +292,7 @@ body {
 
 .img2-6-1 {
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 25px;
 }
 
@@ -298,6 +305,8 @@ body {
 
 .text2-6-1 {
     position: absolute;
+    left: 1px;
+    top: 1px;
     font-size: 18px;
     color: #333333;
     font-weight: 550;
@@ -312,7 +321,7 @@ body {
 
 .text2-6-3 {
     position: absolute;
-    top: 31px;
+    top: 32px;
     font-size: 12px;
     color: #193961;
     font-weight: 700;
@@ -320,8 +329,9 @@ body {
 
 .p2-6-1 {
     position: absolute;
-    top: 62px;
+    top: 46px;
     font-size: 14px;
+    line-height: 20px;
     color: #4F4F4F;
     padding-bottom: 10px;
     border-bottom: 1px solid #E0E0E0;
@@ -334,7 +344,7 @@ a {
 
 .text2-6-4 {
     position: absolute;
-    top: 161px;
+    top: 162px;
     font-size: 12px;
     font-weight: 600;
     color: #828282;
@@ -355,20 +365,20 @@ a {
 
 .text2-6-7 {
     position: absolute;
-    top: 216px;
+    top: 211px;
     left: 65px;
     font-size: 14px;
 }
 
 .text2-6-8 {
     position: absolute;
-    top: 216px;
+    top: 211px;
     font-size: 14px;
 }
 
 .text2-6-9 {
     position: absolute;
-    top: 238px;
+    top: 239px;
     font-size: 12px;
     font-weight: 600;
     color: #828282;
@@ -382,7 +392,8 @@ a {
 
 .online {
     position: absolute;
-    right: 19px;
+    right: 20px;
+    top: 3px;
     font-size: 14px;
     color: #27AE60;
 }
@@ -391,7 +402,7 @@ a {
     position: absolute;
     width: 1100px;
     height: 316px;
-    top: 527px;
+    top: 516px;
     background: #FFFFFF;
     box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.1);
     border-radius: 3px;
@@ -403,7 +414,7 @@ a {
     position: absolute;
     width: 1100px;
     height: 316px;
-    top: 871px;
+    top: 860px;
     background: #FFFFFF;
     box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.1);
     border-radius: 3px;
